@@ -1,0 +1,228 @@
+.App{
+    overflow: hidden;
+}
+.carousel{
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    object-fit: contain;
+    background-color: black;
+  }
+  .Carousel-container{
+    width: 100vw;
+    position: relative;
+    object-fit: contain;
+    background-color: black;
+  }
+  .carousel img{
+    background-color: black;
+    opacity: .3;
+    height: 100vh;
+  }
+  .carousel h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70vw;
+    text-align: left;
+    font-size: 5rem;
+  }
+  .navclass{
+      width: 100%;
+      display: flex;
+      color: yellow;
+      text-align: center;
+    justify-content: space-between;
+  }
+  .navDropDown{
+      display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .About-container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #f9b234;
+    }
+    .about-image{
+        width: 50vw;
+        overflow: hidden;
+      }
+    .about-image img{
+      margin-left: 1rem;
+      margin-top: 3rem;
+      height: 80vh;
+      object-fit: contain;
+    }
+    .about-text{
+        width: 50vw;
+        padding: 10rem 5rem;
+        text-align: center;
+  }
+  .about-text p{
+    padding-top: 2rem;
+  }
+  .about-text Button{
+    width: 15rem;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    border-radius: 4rem;
+    border: none;
+    border-color: black;
+  }
+  .custom-shape-divider-top-1667226839 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1667226839 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+}
+
+.custom-shape-divider-top-1667226839 .shape-fill {
+    fill: #F9B234;
+}
+.news-container{
+  text-align: center;
+  padding: 2rem 0;
+  text-align: right;
+  background-color: rgb(255, 255, 255);
+}
+.news-container h1{
+  text-align: center;
+}
+.news-card-content{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin: 3rem .5rem;
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+  transition: .5s;
+  box-shadow: 10px 5px 5px rgb(211, 210, 210);
+}
+.news-card-content:hover{
+  box-shadow: 10px 5px 5px rgb(119, 118, 118);
+}
+.news-card-content img{
+  width: 80%;
+  overflow: hidden;
+}
+.news-card-content h4{
+  margin-top: 2rem;
+}
+.news-card-content p{
+  margin-top: 1rem;
+}
+.news-card-content Button{
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color:#F9B234;
+}
+.custom-shape-divider-top-1667243174 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1667243174 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-top-1667243174 .shape-fill {
+  fill: #F9B234;
+}
+.Gallery-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f9b234;
+}
+.gallery-image{
+    width: 50vw;
+    overflow: hidden;
+}
+.gallery-image img{
+    height: 50vh;
+    margin-top: 3rem;
+}
+.gallery-text{
+    width: 50vw;
+    padding: 10rem 5rem;
+    text-align: center;
+}
+.gallery-text p{
+padding-top: 2rem;
+}
+.gallery-text Button{
+width: 15rem;
+margin-top: 4rem;
+padding: 1.5rem;
+border-radius: 4rem;
+border: none;
+border-color: black;
+}
+.partnership-container{
+  margin: 2rem 0;
+  text-align: center;
+}
+.partnership-container h1{
+  padding: 2rem;
+}
+.partnership-container Button{
+  width: 50vw;
+  border: none;
+  padding: 1rem;
+  color: black;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  background-color: #F9B234;
+}
+.partnership-container Button:hover{
+  background-color: #F9B234;
+}
+.sponsors{
+  display: flex;
+  margin-top: 7rem;
+}
+.commercial{
+  width: 50vw;
+  display: inline-block;
+}
+.commercial img{
+  margin: 1rem;
+}
+.csr{
+  width: 50vw;
+  display: inline-block;
+}
+.csr img{
+  margin: 1rem;
+}
+.footer-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
