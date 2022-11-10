@@ -45,7 +45,7 @@ const Footer = () => {
           <h6 className="text-uppercase fw-bold mb-4">
             <i className="fas fa-gem me-3"></i>East Africa Classic Rally
           </h6>
-          <img src='http://eastafricansafarirally.com/logo.png' width="350" height="250" alt='sponsor-name'/>
+          {/* <img src='http://eastafricansafarirally.com/logo.png' width="350" height="250" alt='sponsor-name'/> */}
           {/* <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           </p> */}

@@ -13,7 +13,7 @@ const Gallery = () => {
                     <Button variant='primary'>View Gallery</Button>
                 </div>
                 <div className='gallery-image'>
-                    <img src='http://eastafricansafarirally.com/images/background_bg.jpg'/>
+                    {/* <img src='http://eastafricansafarirally.com/images/background_bg.jpg'/> */}
                 </div>
             </div>
             <GalleryDivider/>

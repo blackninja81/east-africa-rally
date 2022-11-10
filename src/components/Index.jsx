@@ -1,9 +1,10 @@
 import React from 'react';
 import News from './News';
 import About from './About';
-import MainNavbar from './Navbar'
+import Videos from './Videos';
 import Footer from './Footer';
 import Gallery from './Gallery';
+import MainNavbar from './Navbar';
 import Casourel from './Casourel';
 import Partnership from './Partnership';
 
@@ -16,6 +17,7 @@ const Index = () => {
             <div><News/></div>
             <div><Gallery/></div>
             <div><Partnership/></div>
+            <div><Videos/></div>
             <div><Footer/></div>
         </div>
 

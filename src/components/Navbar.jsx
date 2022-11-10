@@ -11,7 +11,7 @@ const MainNavbar = () => {
             <Navbar className='text-warning' fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img src='http://eastafricansafarirally.com/logo.png' width="150" height="70" className="d-inline-block align-top" alt="logo"/>
+                        {/* <img src='http://eastafricansafarirally.com/logo.png' width="150" height="70" className="d-inline-block align-top" alt="logo"/> */}
 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
