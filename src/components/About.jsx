@@ -8,10 +8,8 @@ const About = () => {
         <div className='About-main'>
                     <h1>ABOUT THE SAFARI CLASSIC RALLY</h1>
             <div className='About-container'>
-                    <div className='about-image'>
-                        <img src='https://images.pexels.com/photos/2346106/pexels-photo-2346106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
-                    </div>
-               
+                    <div className='about-image'/>
+                    
                 <div className='about-text'>
                     <p>First run in 2003, the legendary East Africa Safari Classic Rally is a nine-day rally covering up to 5,000km across the region. Safari Classic rekindles the spirit of the original Safari Rally, which put East Africa on the motorsport map and earned an unassailable reputation as the world's toughest rally</p>
                     <Button variant='primary'>Learn More</Button>

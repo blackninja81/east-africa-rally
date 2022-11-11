@@ -1,8 +1,8 @@
 import React from 'react';
 import {news} from '../constants';
-import {Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { Button } from 'react-bootstrap';
+import {Splide, SplideSlide} from '@splidejs/react-splide';
 
 const NewsCard = () => (
 

@@ -21,14 +21,20 @@
     opacity: .5;
     height: 100vh;
   }
-  .carousel h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .carousel h1{
     height: 80vh;
-    width: 70%;
-    text-align: left;
-    font-size: 5rem;
+    display: flex;
+    font-size: 80px;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel Button{
+    background-color:#f1b448;
+    padding: 1rem;
+    width: 20vw;
+    border-radius: 4rem;
+    border: none;
   }
   .navclass{
       width: 100%;
@@ -50,28 +56,36 @@
 
   }
   .About-container{
-    height: 100vh;
       display: flex;
+      overflow: hidden;
       flex-direction: row;
       align-items: center;
     }
     .about-image{
-      margin-right: -4rem;
       width: 50vw;
+      height: 50vh;
       overflow: hidden;
+      padding-top: 15rem;
       object-fit: contain;
+      /* background-attachment: fixed; */
+      background-repeat: no-repeat;
+      background-image: url('./pictures/about-car.png');
     }
     .about-image img{
       padding: 1rem;
       height: 80vh;
     }
     .about-text{
-      border-radius: 2rem;
       width: 60vw;
       padding: 3rem;
-      text-align: center;
+      display: flex;
       line-height: 2rem;
+      text-align: center;
       word-spacing: .3rem;
+      border-radius: 2rem;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
       background-color: #f9b234;
   }
   .about-text p{
@@ -82,11 +96,59 @@
     color: black;
     padding: 1.5rem;
     margin-top: 2rem;
-    border-style:ridge;
+    /* border-style:ridge; */
     border-radius: 4rem;
     border-color: black;
     background-color:#f9b234;
   }
+
+
+  @media (max-width: 1200px) {
+    
+  }
+  
+  @media (max-width: 990px) {
+    
+  }
+  
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 575px) {
+    
+  }
+  @media (max-width: 420px) {
+  }
+    
+  @media (max-width:390px) {
+    .About-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .about-image{
+      width: 100vw;
+      object-fit: fill;
+    }
+    .about-text{
+      width: 90vw;
+      margin-top: 1rem;
+    }
+    .gallery-image{
+      display: flex;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .Gallery-main Button{
+      width: 100rem;
+    }
+    .custom-shape-divider-top-1667243174{
+      display: none;
+    }
+    .video-player-container{
+      padding: 0;
+      background-color: red;
+    }
+  }
+
   .custom-shape-divider-top-1667226839 {
     position: relative;
     top: 0;
@@ -166,19 +228,52 @@
 .custom-shape-divider-top-1667243174 .shape-fill {
   fill: #F9B234;
 }
+.Gallery-main{
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Gallery-main h1{
+  padding: 2rem;
+}
 .Gallery-container{
   display: flex;
-  flex-direction: row;
+  overflow: hidden;
   align-items: center;
-  background-color: #f9b234;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #f1b448; */
 }
 .gallery-image{
-    width: 50vw;
+    display: grid;
+    grid-gap: 2px;
     overflow: hidden;
+    background-color: black;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .gallery-image img{
+    transition: .5s;
+    overflow: hidden;
+    background-color: black;
+  }
+  .gallery-image img:hover{
+    opacity: .3;
+    overflow: hidden;
+  transform: scale(.98);
 }
-.gallery-image img{
-    height: 50vh;
-    margin-top: 3rem;
+.g-image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.g-image img{
+  padding: 1rem;
+}
+.g-image img:hover{
+  opacity: .4;
+  background-color: black;
 }
 .gallery-text{
     width: 50vw;
@@ -188,13 +283,19 @@
 .gallery-text p{
 padding-top: 2rem;
 }
-.gallery-text Button{
-width: 15rem;
-margin-top: 4rem;
-padding: 1.5rem;
-border-radius: 4rem;
-border: none;
-border-color: black;
+.Gallery-main Button{
+  width: 30vw;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 1rem;
+  margin: 3rem;
+  border-radius: 4rem;
+    border-color: black;
+  background-color: #F9B234;
+}
+.Gallery-main Button:hover{
+  color: white;
+  background-color: #f1b448;
 }
 .partnership-container{
   margin: 2rem 0;
@@ -221,7 +322,6 @@ border-color: black;
 }
 .commercial{
   width: 50vw;
-  display: inline-block;
 }
 .commercial img{
   margin: 1rem;
@@ -235,10 +335,14 @@ border-color: black;
 }
 .video-container{
   text-align: center;
+}
+.video-player-container{
+  padding: 1rem;
+  margin: 2rem 4rem;
   background-color: #F9B234;
 }
-.video-container h2{
-  padding: 3rem;
+.video-container h1{
+  padding: 1rem;
 }
 .footer-header{
   display: flex;
