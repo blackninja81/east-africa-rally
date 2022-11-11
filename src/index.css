@@ -18,7 +18,7 @@
   }
   .carousel img{
     background-color: black;
-    opacity: .5;
+    /* opacity: .5; */
     height: 100vh;
   }
   .carousel h1{
@@ -96,9 +96,7 @@
     color: black;
     padding: 1.5rem;
     margin-top: 2rem;
-    /* border-style:ridge; */
     border-radius: 4rem;
-    border-color: black;
     background-color:#f9b234;
   }
 
