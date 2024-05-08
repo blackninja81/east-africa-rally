@@ -16,32 +16,11 @@ const Casourel = () => {
             {
                 opacity:0,
                 duration: 1,
-                scale: 1.6,
-                EaseIn:'Expo'
             },{
                 scale:1,
                 opacity:.5,
                 duration:2.5,
-                EaseIn:'Expo'
-            }),
-            gsap.fromTo(
-                carouselText.current,
-                {
-                    scale: .1,
-                },{
-                    scale:1.5,
-                    duration: 1,
-                }),
-                gsap.fromTo(
-                    carouselText.current,
-                    {
-                        scale:1.5,
-                    },{
-                        duration:1,
-                        delay:1,
-                        scale:1,
-                    }
-                )
+            })
     },[])
     return (
         <div className='Carousel-container'>
