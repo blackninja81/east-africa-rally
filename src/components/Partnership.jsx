@@ -7,8 +7,9 @@ const Partnership = () => {
             <h1>PARTNERSHIP ORPOTUNITIES</h1>
             <p>Kindly view our sponsorship video and join the greatest Classic rally link</p>
             <div className='sponsors'>
-                <div className='commercial'>
+                <div className='commercial-container'>
                     <h2>Commercial Sponsors</h2>
+                <div className='commercial'>
                     <img src='https://1000logos.net/wp-content/uploads/2020/09/Telegram-logo-thumb.png' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
                     <img src='https://1000logos.net/wp-content/uploads/2018/02/Ferrari-logo-tumb.jpg' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
                     <img src='https://1000logos.net/wp-content/uploads/2018/09/Honda-logo-500x281.jpg' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
@@ -16,10 +17,13 @@ const Partnership = () => {
                     <img src='https://1000logos.net/wp-content/uploads/2021/10/MG-logo-tumb.jpg' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
                     <img src='https://1000logos.net/wp-content/uploads/2021/11/Nike-Logo-tumb.jpg' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
                 </div>
-                <div className='csr'>
+                </div>
+                <div className='commercial-container'>
                     <h2>Partnership CSR</h2>
+                <div className='csr'>
                     <img src='https://1000logos.net/wp-content/uploads/2021/10/MG-logo-tumb.jpg' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
                     <img src='https://1000logos.net/wp-content/uploads/2021/11/Nike-Logo-tumb.jpg' width="200" height="120" className="d-inline-block align-top" alt='sponsor-name'/>
+                </div>
                 </div>
             </div>
             <Button>Learn More</Button>

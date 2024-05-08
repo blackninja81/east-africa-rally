@@ -1,5 +1,6 @@
 import {gsap } from 'gsap';
 import {Button} from 'react-bootstrap';
+import AboutImage from '../pictures/about-car.png'
 import AboutDivider from './AboutDivider';
 import {React, useRef, useEffect} from 'react'
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
@@ -13,67 +14,13 @@ const About = () => {
     let aboutLetters = useRef(null);
     let aboutButton = useRef(null);
 
-    useEffect(() => {
-
-        gsap.fromTo(
-            aboutTitle.current,
-             { 
-                duration: 1,
-               opacity:0
-             },
-             {
-             duration: 3,
-             delay:.2,
-             opacity:1,
-             ScrollTrigger:{ 
-             trigger:aboutLetters
-            }
-            })
-
-        gsap.fromTo(aboutImage.current,
-             {
-               ease:'Expo.easeOut',
-               duration:1,
-               x: '-100%'
-            },{
-               duration: 1.5,
-               x: '0%'
-            })
-
-        gsap.fromTo(aboutText.current, {x: '100%'},{ duration: 1.5,x: '0%'})
-
-        gsap.fromTo(aboutLetters.current,
-             {
-              delay: 5,
-              ease:'slow',
-              duration: 5,
-              y: '-100%',
-              opacity:0
-              },{
-               ease: "bounce.out",
-               duration: 2,
-               y: '0%',
-               opacity:1
-                }),
-                gsap.fromTo(
-                    aboutButton.current,{
-                        y:'2000%',
-                    },
-                    {
-                        y:'0%',
-                        delay:1,
-                        duration:3.5,
-                        ease: "elastic.out(.1, 1)",
-                    }
-                )
-    }, [])
     return (
         <div className='About-main'>
             <h1 ref={aboutTitle}>ABOUT THE SAFARI CLASSIC RALLY</h1>
             <div className='About-container'>
-                <div className='about-image'
-                    ref={aboutImage}
-                />
+                <div className='about-images'>
+                    <img src={AboutImage} alt='rally car'/>
+                    </div>
 
                 <div className='about-text'
                     ref={aboutText}>
