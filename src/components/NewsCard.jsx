@@ -8,7 +8,7 @@ const NewsCard = () => (
   <div>
     <Splide
       options={{
-        perPage: 3,
+        perPage: 4,
         pagination: false,
         drag: "free",
 
